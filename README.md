@@ -1,13 +1,13 @@
 # Sistema de Gestión de Vehículos en Prolog  
 *Práctica II - Lenguajes de Programación*  
 **Universidad EAFIT** | *Profesor: Alexander Narváez Berrío*  
-*Programado por: David Castrillon e Isabela Ruiz  
+Programado por: David Castrillon e Isabela Ruiz  
 
 ---
 
 ## Descripción  
-Sistema de consulta y reportes para concesionarios vehiculares implementado en **Prolog**, que permite:  
-- Filtrar vehículos por **marca, tipo, año y presupuesto**.  
+Sistema de consulta y reportes para concesionarios vehiculares implementado en Prolog, que permite:  
+- Filtrar vehículos por marca, tipo, año y presupuesto.
 - Generar reportes estructurados con `findall/3` y `bagof/3`.  
 - Validar restricciones de inventario
 
