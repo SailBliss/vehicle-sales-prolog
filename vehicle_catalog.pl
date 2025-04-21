@@ -43,7 +43,7 @@ generate_report(Brand, Type, Budget, result(Vehicles, TotalValue)) :-
     sum_prices(Vehicles, 0, TotalValue),
     TotalValue =< Budget.
 
-% Suma el precio de cada vehículo que esté en la lista.
+% Suma el precio de cada vehÃ­culo que estÃ© en la lista.
 sum_prices([], Acc, Acc).
 sum_prices([vehicle(_, _, _, Price, _)|T], Acc, Total) :-
     NewAcc is Acc + Price,
